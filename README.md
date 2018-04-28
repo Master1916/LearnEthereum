@@ -1,8 +1,8 @@
-#1，安装GO
+# 1，安装GO
 
-2、安装go-ethereum
+# 2、安装go-ethereum
 
-3、配置init.json
+# 3、配置init.json
 
 
 {
@@ -22,7 +22,7 @@
 "extraData": "0x00",
 "gasLimit": "0x8000000"
 }
-4
+# 4
 ./geth --identity "TestNode" --rpc --rpcport "8545" --datadir ./blockchaindata --port "30303" --nodiscover console init init.json
 
 --remmcond
@@ -31,7 +31,7 @@ geth --identity"TestNode"  --rpc  --rpcport "8545"  --port "30303"  --rpcapi "db
 
 centos
 
-5.> personal.newAccount()
+# 5.> personal.newAccount()
 cnepay
 cnepay
 0x7952967025cea7d28e1cf78b0f1f33f4780013a4
@@ -45,7 +45,7 @@ Repeat passphrase:
 "0xeb697d0462f38e09ed6d6c06e93616fceb622967"
 
 
-6、install cmake
+# 6、install cmake
 https://bitshuo.com/topic/5833e6a58bf98a143753b85f
 
  
@@ -57,7 +57,7 @@ https://bitshuo.com/topic/5833e6a58bf98a143753b85f
 0x7952967025cea7d28e1cf78b0f1f33f4780013a4
 0x74a9cadcdded583cb3bf1ffb144b3d6c8052dda2   
 
-8、命令
+# 8、命令
 
 查账户列表
 
@@ -135,7 +135,7 @@ miner.setEtherbase("0x67b5c695e4c1c1ec3287585a41b9dd68e0ca0738")
 
 
 
-remix 安装：
+# remix 安装：
 
 
 git clone https://github.com/ethereum/remix-ide.git
