@@ -1,4 +1,4 @@
-1，安装GO
+#1，安装GO
 
 2、安装go-ethereum
 
@@ -24,6 +24,9 @@
 }
 4
 ./geth --identity "TestNode" --rpc --rpcport "8545" --datadir ./blockchaindata --port "30303" --nodiscover console init init.json
+
+--remmcond
+geth --identity"TestNode"  --rpc  --rpcport "8545"  --port "30303"  --rpcapi "db,eth,net,web3,personal,admin,miner" console init genesis.json
 
 
 centos
