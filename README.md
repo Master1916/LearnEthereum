@@ -156,6 +156,14 @@ ubuntu Mist链接私有geth
 
 ./ethereumwallet --rpc http://localhost:8545
 
+该错误解决方法：
+
+[2018-05-02T17:20:20.436] [ERROR] ClientBinaryManager - Unable to resolve Geth executable: geth
+[2018-05-02T17:20:20.439] [INFO] ClientBinaryManager - Download binary for Geth ...
+[2018-05-02T17:20:20.441] [INFO] ClientBinaryManager - Downloading package from https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.2-b8b9f7f4.tar.gz to /root/.config/Ethereum Wallet/binaries/Geth/archive.tar ...
+[2018-05-02T17:20:22.812] [INFO] updateChecker - App is up-to-date.
+
+https://www.jianshu.com/p/011de705fde3
 
 
 
